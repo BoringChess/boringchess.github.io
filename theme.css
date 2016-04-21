@@ -12,13 +12,14 @@ body {
 	padding:10px 15px 9px 15px !important;
   	display:inline-block;
   	text-decoration:none;
+
 }
 
 nav {
 	padding:5px;
 	position:fixed;
 	top:0%;
-	left:70%;
+	padding-left:70%;
 	width:100%;
 	margin-left:-10px;
 	background-color:#3A3636;

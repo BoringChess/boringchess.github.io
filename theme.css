@@ -7,13 +7,21 @@ body {
 
 nav {
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;	
-	font-size:18px;
+	font-size:24px;
 	position:absolute;
+	padding-right:20px;
 	top:0%;
 	right:0%;
 	margin-left:50px;
 }
 
 h1 {
-	
+	padding-top:100px;
+}
+
+#NewGame {
+	border-radius: 15px;
+	padding:30px;
+	border-style:dashed;
+	width:650px;
 }

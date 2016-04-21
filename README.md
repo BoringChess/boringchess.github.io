@@ -1,0 +1,1 @@
+# boringchess.github.io

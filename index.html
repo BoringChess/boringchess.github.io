@@ -15,12 +15,27 @@
 	<a href="">Home</a>
     <a href="">Register</a>
     <a href="">Sign In</a>
-    <a href="">Add Games</a>
 </nav>
 
 <h1>ECF Grade Tracker</h1>
 
 <p>If like myself you are frustrated at how long it takes for grades to update, and find it fun to "work on your grade" (one of the motivations for getting better), you can use this tool to keep track of an estimate of your grade based on the games played.</p>
 
+<form>
+Date played
+
+<input type="date" name="GameDate" required>
+
+Opponents grade
+
+<input type="number" min="0" max="300" required>
+
+Result
+
+<select name="Result">
+	<option value="1">1 - 0</option>
+	<option value="0.5">0.5 - 0.5</option>
+    <option value="0">0 - 1</option>
+</form>
 </body>
 </html>

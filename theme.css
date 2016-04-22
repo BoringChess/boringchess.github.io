@@ -35,3 +35,8 @@ h1 {
 	border-style:dashed;
 	width:650px;
 }
+
+#Background
+{
+		position:fixed;
+}

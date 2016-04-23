@@ -1,3 +1,4 @@
+
 <!doctype html5>
 <html>
 <head>
@@ -11,13 +12,15 @@
 </head>
 
 <body>
-<img id="Background" src="background.jpg">
-<nav> 
-	<a href="index.html" id="Links">HOME</a>
-    <a href="index.html" id="Links">SIGNUP</a>
-    <a href="index.html" id="Links">LOGIN</a>
-</nav>
 
+<nav> 
+	<a href="index.html" class="Links">HOME</a>
+    <a href="index.html" class="Links">SIGNUP</a>
+    <a href="index.html" class="Links">LOGIN</a>
+</nav>
+<div class="container">
+<div class="block"></div>
+<div class="Main">
 <h1>ECF Grade Tracker</h1>
 
 <p>Motivate yourself to improve by keeping track of your live grade! Enter your latest games to receive an estimate of your grade if it were calculated today.</p>
@@ -28,7 +31,7 @@ Date played
 
 <input type="date" name="GameDate" required>
 
-Opponents grade
+Opponent's grade
 
 <input type="number" min="0" max="300" required>
 
@@ -38,8 +41,12 @@ Result
 	<option value="1">1 - 0</option>
 	<option value="0.5">0.5 - 0.5</option>
     <option value="0">0 - 1</option>
+
+</select>
+
 </form>
 
-
+</div>
+</div>
 </body>
 </html>
